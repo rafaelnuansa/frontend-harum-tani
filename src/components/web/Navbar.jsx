@@ -19,7 +19,8 @@ export default function Navbar() {
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
               <li className="nav-item me-4">
-                <i className="fa fa-envelope"></i> info@Harum Tanitajurhalang.com
+                <i className="fa fa-envelope"></i> info@Harum
+                Tanitajurhalang.com
               </li>
               <li className="nav-item me-4">
                 {/* <i className="fa fa-phone"></i> +62 857-8585-2224 */}
@@ -41,11 +42,11 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <div className="pb-3">
+      <div className="bg-light pb-3">
         <div className="container">
           <div className="row">
             <div className="col-md-9 d-none d-md-block d-lg-block">
-            <div className="header-logo">
+              <div className="header-logo">
                 <a href="#">
                   <img
                     src="/images/logo.png"
@@ -57,7 +58,7 @@ export default function Navbar() {
               <div className="header">
                 <h2 className="header-school">Harum Tani</h2>
                 <div className="header-address">
-                Tajur Halang, Kab.Bogor, Indonesia
+                  Tajur Halang, Kab.Bogor, Indonesia
                 </div>
               </div>
             </div>
@@ -73,10 +74,10 @@ export default function Navbar() {
                 </a>
               </div>
               <div className="col-md-12 text-center text-white mb-3">
-              <h2 className="header-school">Harum Tani</h2>
+                <h2 className="header-school">Harum Tani</h2>
                 <hr />
                 <div className="header-address">
-                Tajur Halang, Kab.Bogor, Indonesia
+                  Tajur Halang, Kab.Bogor, Indonesia
                 </div>
               </div>
             </div>
@@ -86,19 +87,15 @@ export default function Navbar() {
                 className="d-none d-md-block d-lg-block"
                 style={{ marginTop: "60px" }}
               ></div>
-              <form
-                className="d-flex"
-                action="#"
-                method="GET"
-              >
+              <form className="d-flex" action="#" method="GET">
                 <input
                   className="form-control border-0 me-2"
                   type="search"
                   name="q"
-                  placeholder="cari sesuatu..."
+                  placeholder="Search..."
                   aria-label="Search"
                 />
-                <button className="btn btn-dark" type="submit" >
+                <button className="btn btn-dark" type="submit">
                   Search
                 </button>
               </form>
@@ -124,9 +121,7 @@ export default function Navbar() {
               <li className="nav-item ms-2">
                 <Link
                   className={
-                    activeRoute[1] === ""
-                      ? "nav-link active "
-                      : "nav-link "
+                    activeRoute[1] === "" ? "nav-link active " : "nav-link "
                   }
                   to="/"
                 >

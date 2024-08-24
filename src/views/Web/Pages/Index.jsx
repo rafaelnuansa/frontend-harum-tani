@@ -17,7 +17,7 @@ import CardPage from "../../../components/general/CardPage";
 
 export default function WebPagesIndex() {
   //title page
-  document.title = "Tentang Desa - Harum Tani";
+  document.title = "Tentang - Harum Tani";
 
   //init state
   const [pages, setPages] = useState([]);
@@ -50,7 +50,7 @@ export default function WebPagesIndex() {
         <div classname="row">
           <div className="col-md-12">
             <h5 className="text-uppercase">
-              <i className="fa fa-info-circle"></i> TENTANG DESA
+              <i className="fa fa-info-circle"></i> Tentang
             </h5>
             <hr />
           </div>
