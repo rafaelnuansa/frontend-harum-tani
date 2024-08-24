@@ -28,7 +28,7 @@ export default function Footer() {
                 <i className="fas fa-envelope"></i> email@harumtani.com
                 <br />
                 <br />
-                <i className="fas fa-phone"></i> +62 857-8585-2224
+                <i className="fas fa-phone"></i> +62 857-8585-xxxx
               </p>
             </div>
           </div>
