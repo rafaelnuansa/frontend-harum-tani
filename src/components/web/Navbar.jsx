@@ -45,23 +45,27 @@ export default function Navbar() {
       <div className="bg-light pb-3">
         <div className="container">
           <div className="row">
-            <div className="col-md-9 d-none d-md-block d-lg-block">
-              <div className="header-logo">
-                <a href="#">
-                  <img
-                    src="/images/logo.png"
-                    width="110"
-                    className="img-responsive"
-                  />
-                </a>
-              </div>
-              <div className="header">
-                <h2 className="header-school">Harum Tani</h2>
-                <div className="header-address">
-                  Tajur Halang, Kab.Bogor, Indonesia
-                </div>
-              </div>
-            </div>
+          <div className="col-md-9 d-none d-md-block d-lg-block">
+  <div className="header d-flex align-items-center">
+    <div className="header-logo">
+      <a href="#">
+        <img
+          src="/images/logo.png"
+          width="110"
+          className="img-responsive"
+          alt="Logo"
+        />
+      </a>
+    </div>
+    <div className="header-text ml-3 text-dark">
+      <h2 className="header-school mb-0">Harum Tani</h2>
+      <div className="header-address">
+        Tajur Halang, Kab.Bogor, Indonesia
+      </div>
+    </div>
+  </div>
+</div>
+
 
             <div className="row d-block d-md-none d-lg-none">
               <div className="col-md-6 text-center mt-3">
