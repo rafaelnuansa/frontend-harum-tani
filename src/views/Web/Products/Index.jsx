@@ -20,7 +20,7 @@ import Pagination from "../../../components/general/Pagination";
 
 export default function WebProductsIndex() {
   //title page
-  document.title = "Harum Tani - Harum Tani";
+  document.title = "Produk - Harum Tani";
 
   //init state
   const [products, setProducts] = useState([]);
@@ -69,7 +69,7 @@ export default function WebProductsIndex() {
         <div classname="row">
           <div className="col-md-12">
             <h5 className="text-uppercase">
-              <i className="fa fa-shopping-bag"></i> Harum Tani
+              <i className="fa fa-shopping-bag"></i>Produk Harum Tani
             </h5>
             <hr />
           </div>

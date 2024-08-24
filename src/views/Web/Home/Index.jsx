@@ -23,7 +23,7 @@ import CardPostHome from "../../../components/general/CardPostHome";
 
 export default function Home() {
   //title page
-  document.title = "Poktan - Tajur Halang";
+  document.title = "Harum Tani - Tajur Halang";
 
   //init state products
   const [products, setProducts] = useState([]);

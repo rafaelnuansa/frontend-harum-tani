@@ -226,7 +226,7 @@ export default function sidebar() {
 
           {hasAnyPermission(["teams.index"]) && (
             <>
-              <div className="sb-sidenav-menu-heading">OTHERS</div>
+              <div className="sb-sidenav-menu-heading">Lainnya</div>
               <Link
                 className={
                   activeRoute[2] === "teams"
@@ -238,7 +238,7 @@ export default function sidebar() {
                 <div className="sb-nav-link-icon">
                   <i className="fas fa-user"></i>
                 </div>
-                Teams
+                Kelompok Tani
               </Link>
             </>
           )}

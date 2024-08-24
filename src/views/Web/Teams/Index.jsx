@@ -50,7 +50,7 @@ export default function Teams() {
         <div classname="row">
           <div className="col-md-12">
             <h5 className="text-uppercase">
-              <i className="fa fa-user-circle"></i> Team DESA
+              <i className="fa fa-user-circle"></i> Kelompok Tani
             </h5>
             <hr />
           </div>

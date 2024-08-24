@@ -351,7 +351,7 @@ export default function RoutesIndex() {
 
       {/* private route "/admin/Teams" */}
       <Route
-        path="/admin/Teams"
+        path="/admin/teams"
         element={
           <PrivateRoutes>
             <TeamsIndex />
@@ -361,7 +361,7 @@ export default function RoutesIndex() {
 
       {/* private route "/admin/Teams/create" */}
       <Route
-        path="/admin/Teams/create"
+        path="/admin/teams/create"
         element={
           <PrivateRoutes>
             <TeamsCreate />
@@ -371,7 +371,7 @@ export default function RoutesIndex() {
 
       {/* private route "/admin/Teams/edit" */}
       <Route
-        path="/admin/Teams/edit/:id"
+        path="/admin/teams/edit/:id"
         element={
           <PrivateRoutes>
             <TeamsEdit />
@@ -383,7 +383,7 @@ export default function RoutesIndex() {
       <Route path="/" element={<Home />} />
 
       {/* route "/Teams" */}
-      <Route path="/Teams" element={<WebTeamsIndex />} />
+      <Route path="/teams" element={<WebTeamsIndex />} />
 
       {/* route "/pages" */}
       <Route path="/pages" element={<WebPagesIndex />} />
