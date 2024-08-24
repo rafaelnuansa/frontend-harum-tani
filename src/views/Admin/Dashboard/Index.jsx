@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 export default function Dashboard() {
   //title page
-  document.title = "Dashboard - Desa Digital";
+  document.title = "Dashboard - Harum Tani";
 
   //init state
   const [countCategories, setCountCategories] = useState(0);

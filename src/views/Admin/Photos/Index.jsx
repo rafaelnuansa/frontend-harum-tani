@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function PhotosIndex() {
   //title page
-  document.title = "Photos - Desa Digital";
+  document.title = "Photos - Harum Tani";
 
   //define state "photos"
   const [photos, setPhotos] = useState([]);

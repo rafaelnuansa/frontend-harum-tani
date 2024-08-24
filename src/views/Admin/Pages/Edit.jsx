@@ -24,7 +24,7 @@ import "react-quill/dist/quill.snow.css";
 
 export default function PageEdit() {
   //title page
-  document.title = "Edit Page - Desa Digital";
+  document.title = "Edit Page - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

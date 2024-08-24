@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function TeamsIndex() {
   //title page
-  document.title = "Teams - Desa Digital";
+  document.title = "Teams - Harum Tani";
 
   //define state "teams"
   const [teams, setTeams] = useState([]);

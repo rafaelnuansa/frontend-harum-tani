@@ -17,7 +17,7 @@ import CardTeam from "../../../components/general/CardTeam";
 
 export default function Teams() {
   //title page
-  document.title = "Teams - Desa Santri";
+  document.title = "Teams - Harum Tani";
 
   //init state
   const [teams, setTeams] = useState([]);

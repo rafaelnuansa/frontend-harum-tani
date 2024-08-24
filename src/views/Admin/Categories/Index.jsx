@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function CategoriesIndex() {
   //title page
-  document.title = "Categories - Desa Digital";
+  document.title = "Categories - Harum Tani";
 
   //define state "categories"
   const [categories, setCategories] = useState([]);

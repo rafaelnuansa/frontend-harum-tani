@@ -24,7 +24,7 @@ import "react-quill/dist/quill.snow.css";
 
 export default function PagesCreate() {
   //title page
-  document.title = "Create Page - Desa Digital";
+  document.title = "Create Page - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

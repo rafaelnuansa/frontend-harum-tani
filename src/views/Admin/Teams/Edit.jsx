@@ -18,7 +18,7 @@ import toast from "react-hot-toast";
 
 export default function TeamsEdit() {
   //title page
-  document.title = "Edit Team - Desa Digital";
+  document.title = "Edit Team - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

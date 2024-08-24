@@ -38,7 +38,7 @@ export default function WebPostsShow() {
       setPost(response.data.data);
 
       //title page
-      document.title = `${response.data.data.title} - Desa Santri`;
+      document.title = `${response.data.data.title} - Harum Tani`;
 
       //setLoadingPost "false"
       setLoadingPost(false);

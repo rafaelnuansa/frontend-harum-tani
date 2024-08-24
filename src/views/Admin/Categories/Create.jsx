@@ -18,7 +18,7 @@ import toast from "react-hot-toast";
 
 export default function CategoryCreate() {
   //title page
-  document.title = "Create Category - Desa Digital";
+  document.title = "Create Category - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

@@ -16,11 +16,11 @@ import Loading from "../../../components/general/Loading";
 import CardProduct from "../../../components/general/CardProduct";
 
 //import pagination component
-import Pagination from "../../../components/general/pagination";
+import Pagination from "../../../components/general/Pagination";
 
 export default function WebProductsIndex() {
   //title page
-  document.title = "Produk Desa - Desa Santri";
+  document.title = "Produk Desa - Harum Tani";
 
   //init state
   const [products, setProducts] = useState([]);

@@ -18,7 +18,7 @@ import toast from "react-hot-toast";
 
 export default function UsersCreate() {
   //title page
-  document.title = "Create User - Desa Digital";
+  document.title = "Create User - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

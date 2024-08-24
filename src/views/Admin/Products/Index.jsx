@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function ProductsIndex() {
   //title page
-  document.title = "Products - Desa Digital";
+  document.title = "Products - Harum Tani";
 
   //define state "products"
   const [products, setProducts] = useState([]);

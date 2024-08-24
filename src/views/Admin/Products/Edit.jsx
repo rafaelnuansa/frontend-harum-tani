@@ -24,7 +24,7 @@ import "react-quill/dist/quill.snow.css";
 
 export default function ProductsEdit() {
   //title page
-  document.title = "Product Edit - Desa Digital";
+  document.title = "Product Edit - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

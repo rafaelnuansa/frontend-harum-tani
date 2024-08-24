@@ -18,7 +18,7 @@ import toast from "react-hot-toast";
 
 export default function TeamsCreate() {
   //title page
-  document.title = "Create Team - Desa Digital";
+  document.title = "Create Team - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

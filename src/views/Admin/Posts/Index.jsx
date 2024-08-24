@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function PostsIndex() {
   //title page
-  document.title = "Posts - Desa Digital";
+  document.title = "Posts - Harum Tani";
 
   //define state "posts"
   const [posts, setPosts] = useState([]);

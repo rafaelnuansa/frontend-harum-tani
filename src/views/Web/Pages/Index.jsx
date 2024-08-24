@@ -17,7 +17,7 @@ import CardPage from "../../../components/general/CardPage";
 
 export default function WebPagesIndex() {
   //title page
-  document.title = "Tentang Desa - Desa Santri";
+  document.title = "Tentang Desa - Harum Tani";
 
   //init state
   const [pages, setPages] = useState([]);

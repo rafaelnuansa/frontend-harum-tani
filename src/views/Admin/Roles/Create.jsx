@@ -18,7 +18,7 @@ import toast from "react-hot-toast";
 
 export default function RolesCreate() {
   //title page
-  document.title = "Create Role - Desa Digital";
+  document.title = "Create Role - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

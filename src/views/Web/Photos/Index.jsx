@@ -20,7 +20,7 @@ import Pagination from "../../../components/general/pagination";
 
 export default function WebPhotosIndex() {
   //title page
-  document.title = "Galeri Foto - Desa Santri";
+  document.title = "Galeri Foto - Harum Tani";
 
   //init state
   const [photos, setPhotos] = useState([]);

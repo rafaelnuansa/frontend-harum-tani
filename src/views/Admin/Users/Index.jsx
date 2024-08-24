@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function UsersIndex() {
   //title page
-  document.title = "Users - Desa Digital";
+  document.title = "Users - Harum Tani";
 
   //define state "users"
   const [users, setUsers] = useState([]);

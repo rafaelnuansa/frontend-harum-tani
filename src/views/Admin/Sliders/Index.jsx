@@ -30,7 +30,7 @@ import toast from "react-hot-toast";
 
 export default function SlidersIndex() {
   //title page
-  document.title = "Sliders - Desa Digital";
+  document.title = "Sliders - Harum Tani";
 
   //define state "sliders"
   const [sliders, setSliders] = useState([]);

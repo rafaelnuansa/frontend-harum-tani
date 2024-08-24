@@ -18,7 +18,7 @@ import toast from "react-hot-toast";
 
 export default function CategoryEdit() {
   //title page
-  document.title = "Edit Category - Desa Digital";
+  document.title = "Edit Category - Harum Tani";
 
   //navigata
   const navigate = useNavigate();

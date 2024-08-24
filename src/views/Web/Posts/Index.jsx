@@ -20,7 +20,7 @@ import Pagination from "../../../components/general/Pagination";
 
 export default function WebPostsIndex() {
   //title page
-  document.title = "Berita - Desa Santri";
+  document.title = "Berita - Harum Tani";
 
   //init state
   const [posts, setPosts] = useState([]);
